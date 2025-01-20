@@ -4,14 +4,7 @@ import { useState, useEffect } from 'react'
 import SearchBar from './SearchBar'
 import TabFilter from './TabFilter'
 import NewsList from './NewsList'
-import { NewsItem, Tab } from '../lib/types'
-
-const tabs: Tab[] = [
-  { id: '1', name: 'All News', category: 'all' },
-  { id: '2', name: 'Exam News', category: 'exam' },
-  { id: '3', name: 'Admission', category: 'admission' },
-  { id: '4', name: 'College News', category: 'college' },
-]
+import { NewsItem } from '../lib/types'
 
 interface NewsContainerProps {
   initialNews: NewsItem[];
