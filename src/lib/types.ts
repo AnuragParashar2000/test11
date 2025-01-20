@@ -3,13 +3,13 @@ export interface NewsItem {
     title: string;
     institution: string;
     date: string;
-    category: 'exam' | 'admission' | 'college' | 'all';
-    content?: string;
+    category: string;
+    content: string;
     image: string;
   }
   
   export type Tab = {
     id: string;
     name: string;
-    category: 'all' | 'exam' | 'admission' | 'college';
+    category: string;
   };
