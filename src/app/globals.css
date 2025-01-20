@@ -15,7 +15,7 @@ body {
 
 /* Navbar */
 .navbar {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   background-color: white;
@@ -85,4 +85,28 @@ body {
   margin-left: -30px;
   color: black;
 }
-  
+
+
+/* secondheader */
+/* globals.css */
+
+.second-header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.second-header-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.second-header-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.second-header-link:hover {
+  text-decoration: underline;
+}
