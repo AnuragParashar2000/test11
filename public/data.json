@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Example Item 1",
+      "category": "Category1",
+      "image": "/images/example-image.jpg",
+      "description": "This is a description for item 1.",
+      
+    },
+    {
+      "id": 2,
+      "title": "Example Item 2",
+      "category": "Category2",
+      "image": "/images/example-image.jpg",
+      "description": "This is a description for item 2."
+    }
+  ]
