@@ -59,7 +59,6 @@ export default function NewsContainer({ initialNews }: NewsContainerProps) {
       <SearchBar onSearch={handleSearch} />
       
       <TabFilter 
-        tabs={tabs}
         selectedTab={selectedTab}
         onTabChange={handleTabChange}
       />
